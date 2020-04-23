@@ -3,6 +3,6 @@ function Cat(){
 }
 
 Cat.prototype.eat = function(mouse) {
-	thí.stomach.push(mouse);
+	this.stomach.push(mouse);
 };
 module.exports = Cat;
